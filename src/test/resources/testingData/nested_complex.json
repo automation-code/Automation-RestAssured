@@ -1,0 +1,69 @@
+{
+  "company": "Tech Corporation",
+  "founded": "2020",
+  "employees": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "department": "Engineering",
+      "position": "Senior Developer",
+      "salary": 120000,
+      "skills": [
+        "Java",
+        "Python",
+        "Go",
+        "Docker"
+      ],
+      "projects": [
+        {
+          "projectId": "PROJ001",
+          "name": "Project Alpha",
+          "status": "In Progress",
+          "startDate": "2024-01-01",
+          "endDate": "2024-06-01",
+          "team": {
+            "lead": "Alice",
+            "members": 5,
+            "location": "New York"
+          }
+        },
+        {
+          "projectId": "PROJ002",
+          "name": "Project Beta",
+          "status": "Completed",
+          "startDate": "2023-06-01",
+          "endDate": "2023-12-01",
+          "team": {
+            "lead": "Alice",
+            "members": 3,
+            "location": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "department": "Marketing",
+      "position": "Marketing Manager",
+      "salary": 90000,
+      "skills": [
+        "SEO",
+        "Analytics",
+        "Content Writing",
+        "Social Media"
+      ],
+      "projects": []
+    }
+  ],
+  "metadata": {
+    "created": "2024-01-15",
+    "updated": "2024-01-20",
+    "version": "2.0",
+    "tags": [
+      "production",
+      "active",
+      "verified"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "orderId": "{{ORDER_ID}}",
+  "customerId": "{{CUSTOMER_ID}}",
+  "orderDate": "2024-01-15T10:30:00Z",
+  "items": [
+    {
+      "productId": "PROD001",
+      "productName": "Laptop",
+      "quantity": 2,
+      "price": 999.99,
+      "discount": 10
+    },
+    {
+      "productId": "PROD002",
+      "productName": "Mouse",
+      "quantity": 5,
+      "price": 25.99,
+      "discount": 0
+    }
+  ],
+  "shippingAddress": {
+    "street": "456 Oak Ave",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zipCode": "90001",
+    "country": "USA"
+  },
+  "billingAddress": {
+    "street": "789 Pine Rd",
+    "city": "San Francisco",
+    "state": "CA",
+    "zipCode": "94102",
+    "country": "USA"
+  },
+  "totalAmount": 2049.97,
+  "tax": 164.00,
+  "paymentMethod": "CREDIT_CARD",
+  "status": "PENDING",
+  "notes": "Urgent delivery requested"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+    <orderId>ORD-12345</orderId>
+    <customerId>CUST-98765</customerId>
+    <orderDate>2024-01-15T10:30:00Z</orderDate>
+    <items>
+        <item>
+            <productId>PROD001</productId>
+            <productName>Laptop</productName>
+            <quantity>2</quantity>
+            <price>999.99</price>
+        </item>
+        <item>
+            <productId>PROD002</productId>
+            <productName>Mouse</productName>
+            <quantity>5</quantity>
+            <price>25.99</price>
+        </item>
+    </items>
+    <shippingAddress>
+        <street>456 Oak Ave</street>
+        <city>Los Angeles</city>
+        <state>CA</state>
+        <zipCode>90001</zipCode>
+    </shippingAddress>
+    <totalAmount>2049.97</totalAmount>
+    <paymentMethod>CREDIT_CARD</paymentMethod>
+    <status>PENDING</status>
+</order>

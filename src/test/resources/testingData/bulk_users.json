@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "User One",
+    "email": "user1@test.com",
+    "status": "active",
+    "verified": true
+  },
+  {
+    "id": 2,
+    "name": "User Two",
+    "email": "user2@test.com",
+    "status": "inactive",
+    "verified": false
+  },
+  {
+    "id": 3,
+    "name": "User Three",
+    "email": "user3@test.com",
+    "status": "active",
+    "verified": true
+  }
+]

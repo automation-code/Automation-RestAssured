@@ -1,0 +1,65 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.maven.metadata.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iml
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata
+*.log
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build and Runtime
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Test Reports
+test-results/
+test-output/
+*.html
+report.json
+report.xml
+

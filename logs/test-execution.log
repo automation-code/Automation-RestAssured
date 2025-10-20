@@ -1,0 +1,1362 @@
+2025-10-20 21:03:44 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:03:44 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:03:44 [INFO ] [main] ConfigManager:loadProperties:22 - Configuration loaded from: src/test/resources/config.properties
+2025-10-20 21:03:45 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:03:45 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:03:45 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:03:45 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:03:45 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:03:45 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:03:45 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /users/1
+2025-10-20 21:03:45 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users/1
+2025-10-20 21:03:47 [INFO ] [main] APIClient:get:92 - GET Response Status: 200
+2025-10-20 21:03:47 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:03:47 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:03:47 [INFO ] [main] ResponseValidator:validateContentType:73 - Content-Type validated: application/json
+2025-10-20 21:03:47 [INFO ] [main] ResponseValidator:validateBodyNotEmpty:79 - Response body is not empty
+2025-10-20 21:03:47 [INFO ] [main] ResponseValidator:validateJsonPath:47 - JSON path validated: id = 1
+2025-10-20 21:03:47 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:03:47 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:04:36 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:04:36 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:04:36 [INFO ] [main] ConfigManager:loadProperties:22 - Configuration loaded from: src/test/resources/config.properties
+2025-10-20 21:04:37 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:04:37 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:04:37 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:04:37 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:04:37 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:04:37 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:04:37 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /users/1
+2025-10-20 21:04:37 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users/1
+2025-10-20 21:04:37 [INFO ] [main] APIClient:get:92 - GET Response Status: 200
+2025-10-20 21:04:37 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:04:37 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:04:38 [INFO ] [main] ResponseValidator:validateContentType:73 - Content-Type validated: application/json
+2025-10-20 21:04:38 [INFO ] [main] ResponseValidator:validateBodyNotEmpty:79 - Response body is not empty
+2025-10-20 21:04:38 [INFO ] [main] ResponseValidator:validateJsonPath:47 - JSON path validated: id = 1
+2025-10-20 21:04:38 [INFO ] [main] ResponseValidator:validateJsonPathContains:54 - JSON path contains validated: name
+2025-10-20 21:04:38 [INFO ] [main] ResponseValidator:validateResponseTime:61 - Response time validated: 612ms
+2025-10-20 21:04:38 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:04:38 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:07:00 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:07:00 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:07:00 [INFO ] [main] ConfigManager:loadProperties:22 - Configuration loaded from: src/test/resources/config.properties
+2025-10-20 21:07:01 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:07:01 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:07:01 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:07:01 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:07:01 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:07:01 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:07:01 [INFO ] [main] APIClientSteps:prepareRequestBody:104 - Preparing request body
+2025-10-20 21:07:01 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:07:01 [INFO ] [main] APIClientSteps:sendPOSTRequest:48 - Sending POST to: /users
+2025-10-20 21:07:01 [INFO ] [main] APIClient:post:97 - Sending POST request to: /users
+2025-10-20 21:07:02 [INFO ] [main] APIClient:post:99 - POST Response Status: 201
+2025-10-20 21:07:02 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:07:02 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 201
+2025-10-20 21:07:03 [INFO ] [main] ResponseValidator:extractJsonPath:92 - Extracted: id = 11
+2025-10-20 21:07:03 [DEBUG] [main] TestContext:setExtractedData:42 - Extracted data set: createdUserId = 11
+2025-10-20 21:07:03 [INFO ] [main] APIClientSteps:extractJsonPath:187 - Extracted: createdUserId = 11
+2025-10-20 21:07:03 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:07:03 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:14:15 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:14:15 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:14:15 [INFO ] [main] ConfigManager:loadProperties:22 - Configuration loaded from: src/test/resources/config.properties
+2025-10-20 21:14:16 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:14:16 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:14:16 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:14:16 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:14:16 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:14:16 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:14:16 [INFO ] [main] APIClientSteps:prepareRequestBody:104 - Preparing request body
+2025-10-20 21:14:16 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:14:16 [INFO ] [main] APIClientSteps:sendPUTRequest:55 - Sending PUT to: /users/1
+2025-10-20 21:14:16 [INFO ] [main] APIClient:put:104 - Sending PUT request to: /users/1
+2025-10-20 21:14:17 [INFO ] [main] APIClient:put:106 - PUT Response Status: 200
+2025-10-20 21:14:17 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:14:17 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:14:18 [INFO ] [main] ResponseValidator:validateJsonPath:47 - JSON path validated: name = hello
+2025-10-20 21:14:18 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:14:18 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:15:31 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:15:31 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:15:31 [INFO ] [main] ConfigManager:loadProperties:22 - Configuration loaded from: src/test/resources/config.properties
+2025-10-20 21:15:31 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:15:31 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:15:31 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:15:31 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:15:31 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:15:31 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:15:31 [INFO ] [main] APIClientSteps:prepareRequestBody:104 - Preparing request body
+2025-10-20 21:15:32 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:15:32 [INFO ] [main] APIClientSteps:sendPUTRequest:55 - Sending PUT to: /users/10
+2025-10-20 21:15:32 [INFO ] [main] APIClient:put:104 - Sending PUT request to: /users/10
+2025-10-20 21:15:33 [INFO ] [main] APIClient:put:106 - PUT Response Status: 200
+2025-10-20 21:15:33 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:15:33 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:15:34 [INFO ] [main] ResponseValidator:validateJsonPath:47 - JSON path validated: name = hello
+2025-10-20 21:15:34 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:15:34 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:16:49 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:16:49 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:16:49 [INFO ] [main] ConfigManager:loadProperties:22 - Configuration loaded from: src/test/resources/config.properties
+2025-10-20 21:16:49 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:16:49 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:16:49 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:16:49 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:16:49 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:16:49 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:16:49 [INFO ] [main] APIClientSteps:sendDELETERequest:69 - Sending DELETE to: /users/1
+2025-10-20 21:16:49 [INFO ] [main] APIClient:delete:118 - Sending DELETE request to: /users/1
+2025-10-20 21:16:51 [INFO ] [main] APIClient:delete:120 - DELETE Response Status: 200
+2025-10-20 21:16:51 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:16:51 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:16:51 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:16:51 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:45 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:17:45 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:17:45 [INFO ] [main] ConfigManager:loadProperties:22 - Configuration loaded from: src/test/resources/config.properties
+2025-10-20 21:17:45 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:45 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:45 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:45 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:45 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:45 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:17:45 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /users/1
+2025-10-20 21:17:45 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users/1
+2025-10-20 21:17:46 [INFO ] [main] APIClient:get:92 - GET Response Status: 200
+2025-10-20 21:17:46 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:17:46 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:17:46 [INFO ] [main] ResponseValidator:validateContentType:73 - Content-Type validated: application/json
+2025-10-20 21:17:46 [INFO ] [main] ResponseValidator:validateBodyNotEmpty:79 - Response body is not empty
+2025-10-20 21:17:47 [INFO ] [main] ResponseValidator:validateJsonPath:47 - JSON path validated: id = 1
+2025-10-20 21:17:47 [INFO ] [main] ResponseValidator:validateJsonPathContains:54 - JSON path contains validated: name
+2025-10-20 21:17:47 [INFO ] [main] ResponseValidator:validateResponseTime:61 - Response time validated: 560ms
+2025-10-20 21:17:47 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:17:47 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:47 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:17:47 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:17:47 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:47 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:47 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:47 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:47 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:47 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:17:47 [INFO ] [main] APIClientSteps:prepareRequestBody:104 - Preparing request body
+2025-10-20 21:17:47 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:17:47 [INFO ] [main] APIClientSteps:sendPOSTRequest:48 - Sending POST to: /users
+2025-10-20 21:17:47 [INFO ] [main] APIClient:post:97 - Sending POST request to: /users
+2025-10-20 21:17:47 [INFO ] [main] APIClient:post:99 - POST Response Status: 201
+2025-10-20 21:17:47 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:17:47 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 201
+2025-10-20 21:17:47 [INFO ] [main] ResponseValidator:extractJsonPath:92 - Extracted: id = 11
+2025-10-20 21:17:47 [DEBUG] [main] TestContext:setExtractedData:42 - Extracted data set: createdUserId = 11
+2025-10-20 21:17:47 [INFO ] [main] APIClientSteps:extractJsonPath:187 - Extracted: createdUserId = 11
+2025-10-20 21:17:47 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:17:47 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:47 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:17:47 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:17:47 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:47 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:47 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:47 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:47 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:47 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:17:47 [INFO ] [main] APIClientSteps:prepareRequestBody:104 - Preparing request body
+2025-10-20 21:17:47 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:17:47 [INFO ] [main] APIClientSteps:sendPUTRequest:55 - Sending PUT to: /users/1
+2025-10-20 21:17:47 [INFO ] [main] APIClient:put:104 - Sending PUT request to: /users/1
+2025-10-20 21:17:48 [INFO ] [main] APIClient:put:106 - PUT Response Status: 200
+2025-10-20 21:17:48 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:17:48 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:17:48 [INFO ] [main] ResponseValidator:validateJsonPath:47 - JSON path validated: name = hello
+2025-10-20 21:17:48 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:17:48 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:48 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:17:48 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:17:48 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:48 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:48 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:48 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:48 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:48 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:17:48 [INFO ] [main] APIClientSteps:sendDELETERequest:69 - Sending DELETE to: /users/1
+2025-10-20 21:17:48 [INFO ] [main] APIClient:delete:118 - Sending DELETE request to: /users/1
+2025-10-20 21:17:49 [INFO ] [main] APIClient:delete:120 - DELETE Response Status: 200
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:17:49 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:17:49 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:17:49 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:17:49 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:49 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:49 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:49 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:17:49 [INFO ] [main] APIClientSteps:sendGETWithQueryParams:77 - Sending GET with query params
+2025-10-20 21:17:49 [DEBUG] [main] APIClient:setQueryParams:61 - Query parameters set: {id=1}
+2025-10-20 21:17:49 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users
+2025-10-20 21:17:49 [INFO ] [main] APIClient:get:92 - GET Response Status: 200
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:17:49 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:17:49 [INFO ] [main] ResponseValidator:validateBodyNotEmpty:79 - Response body is not empty
+2025-10-20 21:17:49 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:17:49 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:17:49 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:49 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:49 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:49 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:17:49 [INFO ] [main] APIClientSteps:addHeader:85 - Adding header: X-Custom-Header
+2025-10-20 21:17:49 [DEBUG] [main] APIClient:addHeader:36 - Header added: X-Custom-Header = TestValue
+2025-10-20 21:17:49 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /users/1
+2025-10-20 21:17:49 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users/1
+2025-10-20 21:17:49 [INFO ] [main] APIClient:get:92 - GET Response Status: 200
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:17:49 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:17:49 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:17:49 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:17:49 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:49 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:49 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:49 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:17:49 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /users
+2025-10-20 21:17:49 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users
+2025-10-20 21:17:49 [INFO ] [main] APIClient:get:92 - GET Response Status: 200
+2025-10-20 21:17:49 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:17:49 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:17:50 [INFO ] [main] ResponseValidator:validateJsonArray:86 - Array size validated: id = 10
+2025-10-20 21:17:50 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:17:50 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:50 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:17:50 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:17:50 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:50 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:50 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:50 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:50 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:50 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:17:50 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /users/99999
+2025-10-20 21:17:50 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users/99999
+2025-10-20 21:17:50 [INFO ] [main] APIClient:get:92 - GET Response Status: 404
+2025-10-20 21:17:50 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:17:50 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 404
+2025-10-20 21:17:50 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:17:50 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:50 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:17:50 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:17:50 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:50 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:50 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:50 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:17:50 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:17:50 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:17:50 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /invalid/endpoint
+2025-10-20 21:17:50 [INFO ] [main] APIClient:get:90 - Sending GET request to: /invalid/endpoint
+2025-10-20 21:17:51 [INFO ] [main] APIClient:get:92 - GET Response Status: 404
+2025-10-20 21:17:51 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:17:51 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 404
+2025-10-20 21:17:51 [INFO ] [main] ResponseValidator:validateStatusCodeIs4xx:33 - Status code is 4xx
+2025-10-20 21:17:51 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:17:51 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:38 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:18:38 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:18:38 [INFO ] [main] ConfigManager:loadProperties:22 - Configuration loaded from: src/test/resources/config.properties
+2025-10-20 21:18:38 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:38 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:38 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:38 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:38 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:38 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:18:38 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /users/1
+2025-10-20 21:18:38 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users/1
+2025-10-20 21:18:39 [INFO ] [main] APIClient:get:92 - GET Response Status: 200
+2025-10-20 21:18:39 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:18:39 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:18:39 [INFO ] [main] ResponseValidator:validateContentType:73 - Content-Type validated: application/json
+2025-10-20 21:18:39 [INFO ] [main] ResponseValidator:validateBodyNotEmpty:79 - Response body is not empty
+2025-10-20 21:18:40 [INFO ] [main] ResponseValidator:validateJsonPath:47 - JSON path validated: id = 1
+2025-10-20 21:18:40 [INFO ] [main] ResponseValidator:validateJsonPathContains:54 - JSON path contains validated: name
+2025-10-20 21:18:40 [INFO ] [main] ResponseValidator:validateResponseTime:61 - Response time validated: 739ms
+2025-10-20 21:18:40 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:18:40 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:18:40 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:40 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:prepareRequestBody:104 - Preparing request body
+2025-10-20 21:18:40 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:sendPOSTRequest:48 - Sending POST to: /users
+2025-10-20 21:18:40 [INFO ] [main] APIClient:post:97 - Sending POST request to: /users
+2025-10-20 21:18:40 [INFO ] [main] APIClient:post:99 - POST Response Status: 201
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:18:40 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 201
+2025-10-20 21:18:40 [INFO ] [main] ResponseValidator:extractJsonPath:92 - Extracted: id = 11
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:setExtractedData:42 - Extracted data set: createdUserId = 11
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:extractJsonPath:187 - Extracted: createdUserId = 11
+2025-10-20 21:18:40 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:18:40 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:18:40 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:40 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:prepareRequestBody:104 - Preparing request body
+2025-10-20 21:18:40 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:sendPUTRequest:55 - Sending PUT to: /users/1
+2025-10-20 21:18:40 [INFO ] [main] APIClient:put:104 - Sending PUT request to: /users/1
+2025-10-20 21:18:40 [INFO ] [main] APIClient:put:106 - PUT Response Status: 200
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:18:40 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:18:40 [INFO ] [main] ResponseValidator:validateJsonPath:47 - JSON path validated: name = hello
+2025-10-20 21:18:40 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:18:40 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:18:40 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:40 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:40 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:18:40 [INFO ] [main] APIClientSteps:sendDELETERequest:69 - Sending DELETE to: /users/1
+2025-10-20 21:18:40 [INFO ] [main] APIClient:delete:118 - Sending DELETE request to: /users/1
+2025-10-20 21:18:41 [INFO ] [main] APIClient:delete:120 - DELETE Response Status: 200
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:18:41 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:18:41 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:18:41 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:18:41 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:sendGETWithQueryParams:77 - Sending GET with query params
+2025-10-20 21:18:41 [DEBUG] [main] APIClient:setQueryParams:61 - Query parameters set: {id=1}
+2025-10-20 21:18:41 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users
+2025-10-20 21:18:41 [INFO ] [main] APIClient:get:92 - GET Response Status: 200
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:18:41 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:18:41 [INFO ] [main] ResponseValidator:validateBodyNotEmpty:79 - Response body is not empty
+2025-10-20 21:18:41 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:18:41 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:18:41 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:addHeader:85 - Adding header: X-Custom-Header
+2025-10-20 21:18:41 [DEBUG] [main] APIClient:addHeader:36 - Header added: X-Custom-Header = TestValue
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /users/1
+2025-10-20 21:18:41 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users/1
+2025-10-20 21:18:41 [INFO ] [main] APIClient:get:92 - GET Response Status: 200
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:18:41 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:18:41 [INFO ] [main] ResponseValidator:validateHeader:67 - Header validated: Content-Type
+2025-10-20 21:18:41 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:18:41 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:18:41 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /users
+2025-10-20 21:18:41 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users
+2025-10-20 21:18:41 [INFO ] [main] APIClient:get:92 - GET Response Status: 200
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:18:41 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 200
+2025-10-20 21:18:41 [INFO ] [main] ResponseValidator:validateJsonArray:86 - Array size validated: id = 10
+2025-10-20 21:18:41 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:18:41 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:18:41 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /users/99999
+2025-10-20 21:18:41 [INFO ] [main] APIClient:get:90 - Sending GET request to: /users/99999
+2025-10-20 21:18:41 [INFO ] [main] APIClient:get:92 - GET Response Status: 404
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:18:41 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 404
+2025-10-20 21:18:41 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:18:41 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:18:41 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:18:41 [INFO ] [main] APIClientSteps:sendGETRequest:41 - Sending GET to: /invalid/endpoint
+2025-10-20 21:18:41 [INFO ] [main] APIClient:get:90 - Sending GET request to: /invalid/endpoint
+2025-10-20 21:18:41 [INFO ] [main] APIClient:get:92 - GET Response Status: 404
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:18:41 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 404
+2025-10-20 21:18:41 [INFO ] [main] ResponseValidator:validateStatusCodeIs4xx:33 - Status code is 4xx
+2025-10-20 21:18:41 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:18:41 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:21:04 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:21:04 [INFO ] [main] ConfigManager:loadProperties:22 - Configuration loaded from: src/test/resources/config.properties
+2025-10-20 21:21:04 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:04 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:04 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:04 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:21:04 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:21:04 [INFO ] [main] ComplexPayloadSteps:loadJsonPayloadFromFile:36 - Loading JSON from file: simple_user.json
+2025-10-20 21:21:04 [ERROR] [main] FileUtils:readJsonFile:21 - Error reading JSON file: simple_user.json
+java.nio.file.NoSuchFileException: src\test\resources\testdata\simple_user.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at com.api.automation.utils.FileUtils.readJsonFile(FileUtils.java:17)
+	at com.api.automation.stepDefs.ComplexPayloadSteps.loadJsonPayloadFromFile(ComplexPayloadSteps.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:87)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:78)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:202)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:91)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:232)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2025-10-20 21:21:04 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:21:04 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:21:04 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:04 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:04 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:04 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:21:04 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:21:04 [INFO ] [main] ComplexPayloadSteps:loadJsonPayloadWithReplacements:45 - Loading JSON with replacements: complex_user.json
+2025-10-20 21:21:04 [ERROR] [main] FileUtils:readJsonFile:21 - Error reading JSON file: complex_user.json
+java.nio.file.NoSuchFileException: src\test\resources\testdata\complex_user.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at com.api.automation.utils.FileUtils.readJsonFile(FileUtils.java:17)
+	at com.api.automation.utils.FileUtils.readJsonFileWithReplacements(FileUtils.java:52)
+	at com.api.automation.stepDefs.ComplexPayloadSteps.loadJsonPayloadWithReplacements(ComplexPayloadSteps.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:87)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:78)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:202)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:91)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:232)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2025-10-20 21:21:04 [ERROR] [main] FileUtils:readJsonFileWithReplacements:64 - Error processing file
+java.lang.RuntimeException: Failed to read JSON file
+	at com.api.automation.utils.FileUtils.readJsonFile(FileUtils.java:22)
+	at com.api.automation.utils.FileUtils.readJsonFileWithReplacements(FileUtils.java:52)
+	at com.api.automation.stepDefs.ComplexPayloadSteps.loadJsonPayloadWithReplacements(ComplexPayloadSteps.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:87)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:78)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:202)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:91)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:232)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: java.nio.file.NoSuchFileException: src\test\resources\testdata\complex_user.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at com.api.automation.utils.FileUtils.readJsonFile(FileUtils.java:17)
+	... 51 more
+2025-10-20 21:21:04 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:21:04 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:21:04 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:04 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:04 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:04 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:21:04 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:21:04 [INFO ] [main] ComplexPayloadSteps:buildComplexPayload:80 - Building complex payload
+2025-10-20 21:21:04 [DEBUG] [main] ComplexPayloadBuilder:clear:97 - Payload cleared
+2025-10-20 21:21:04 [DEBUG] [main] ComplexPayloadBuilder:addString:26 - Added String - name: Jane Doe
+2025-10-20 21:21:04 [DEBUG] [main] ComplexPayloadBuilder:addString:26 - Added String - email: jane@test
+2025-10-20 21:21:04 [DEBUG] [main] ComplexPayloadBuilder:addNumber:32 - Added Number - age: 30
+2025-10-20 21:21:04 [DEBUG] [main] ComplexPayloadBuilder:addBoolean:38 - Added Boolean - verified: true
+2025-10-20 21:21:04 [INFO ] [main] ComplexPayloadSteps:addNestedObjectToPayload:101 - Adding nested object: address
+2025-10-20 21:21:04 [DEBUG] [main] ComplexPayloadBuilder:addNestedObject:50 - Added Nested Object - address
+2025-10-20 21:21:04 [INFO ] [main] ComplexPayloadSteps:addArrayToPayload:108 - Adding array: tags
+2025-10-20 21:21:04 [DEBUG] [main] ComplexPayloadBuilder:addStringArray:58 - Added String Array - tags: 3 items
+2025-10-20 21:21:04 [INFO ] [main] ComplexPayloadSteps:finalizePayload:126 - Finalizing payload
+2025-10-20 21:21:04 [INFO ] [main] ComplexPayloadBuilder:build:86 - Payload built successfully
+2025-10-20 21:21:04 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:21:04 [DEBUG] [main] TestContext:setContextData:33 - Context data set: lastPayload
+2025-10-20 21:21:04 [INFO ] [main] PayloadProcessor:logPayload:91 - Payload:
+{
+  "name": "Jane Doe",
+  "email": "jane@test",
+  "age": 30,
+  "verified": true,
+  "address": {
+    "city": "New York",
+    "street": "123 Main St",
+    "state": "NY"
+  },
+  "tags": [
+    "developer",
+    "tester",
+    "manager"
+  ]
+}
+2025-10-20 21:21:04 [INFO ] [main] APIClientSteps:sendPOSTRequest:48 - Sending POST to: /users
+2025-10-20 21:21:04 [INFO ] [main] APIClient:post:97 - Sending POST request to: /users
+2025-10-20 21:21:06 [INFO ] [main] APIClient:post:99 - POST Response Status: 201
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:21:06 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 201
+2025-10-20 21:21:06 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:21:06 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:21:06 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:06 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:06 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:06 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:21:06 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:21:06 [INFO ] [main] ComplexPayloadSteps:loadJsonPayloadFromFile:36 - Loading JSON from file: simple_user.json
+2025-10-20 21:21:06 [ERROR] [main] FileUtils:readJsonFile:21 - Error reading JSON file: simple_user.json
+java.nio.file.NoSuchFileException: src\test\resources\testdata\simple_user.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at com.api.automation.utils.FileUtils.readJsonFile(FileUtils.java:17)
+	at com.api.automation.stepDefs.ComplexPayloadSteps.loadJsonPayloadFromFile(ComplexPayloadSteps.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:87)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:78)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:202)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:91)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:232)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2025-10-20 21:21:06 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:21:06 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:21:06 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:06 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:06 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:06 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:21:06 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:21:06 [INFO ] [main] ComplexPayloadSteps:loadJsonPayloadWithReplacements:45 - Loading JSON with replacements: complex_user.json
+2025-10-20 21:21:06 [ERROR] [main] FileUtils:readJsonFile:21 - Error reading JSON file: complex_user.json
+java.nio.file.NoSuchFileException: src\test\resources\testdata\complex_user.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at com.api.automation.utils.FileUtils.readJsonFile(FileUtils.java:17)
+	at com.api.automation.utils.FileUtils.readJsonFileWithReplacements(FileUtils.java:52)
+	at com.api.automation.stepDefs.ComplexPayloadSteps.loadJsonPayloadWithReplacements(ComplexPayloadSteps.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:87)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:78)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:202)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:91)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:232)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2025-10-20 21:21:06 [ERROR] [main] FileUtils:readJsonFileWithReplacements:64 - Error processing file
+java.lang.RuntimeException: Failed to read JSON file
+	at com.api.automation.utils.FileUtils.readJsonFile(FileUtils.java:22)
+	at com.api.automation.utils.FileUtils.readJsonFileWithReplacements(FileUtils.java:52)
+	at com.api.automation.stepDefs.ComplexPayloadSteps.loadJsonPayloadWithReplacements(ComplexPayloadSteps.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:87)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:78)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:202)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:91)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:232)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: java.nio.file.NoSuchFileException: src\test\resources\testdata\complex_user.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at com.api.automation.utils.FileUtils.readJsonFile(FileUtils.java:17)
+	... 51 more
+2025-10-20 21:21:06 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:21:06 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:21:06 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:06 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:06 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:21:06 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:21:06 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:21:06 [INFO ] [main] ComplexPayloadSteps:loadJsonPayloadWithReplacements:45 - Loading JSON with replacements: complex_user.json
+2025-10-20 21:21:06 [ERROR] [main] FileUtils:readJsonFile:21 - Error reading JSON file: complex_user.json
+java.nio.file.NoSuchFileException: src\test\resources\testdata\complex_user.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at com.api.automation.utils.FileUtils.readJsonFile(FileUtils.java:17)
+	at com.api.automation.utils.FileUtils.readJsonFileWithReplacements(FileUtils.java:52)
+	at com.api.automation.stepDefs.ComplexPayloadSteps.loadJsonPayloadWithReplacements(ComplexPayloadSteps.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:87)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:78)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:202)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:91)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:232)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2025-10-20 21:21:06 [ERROR] [main] FileUtils:readJsonFileWithReplacements:64 - Error processing file
+java.lang.RuntimeException: Failed to read JSON file
+	at com.api.automation.utils.FileUtils.readJsonFile(FileUtils.java:22)
+	at com.api.automation.utils.FileUtils.readJsonFileWithReplacements(FileUtils.java:52)
+	at com.api.automation.stepDefs.ComplexPayloadSteps.loadJsonPayloadWithReplacements(ComplexPayloadSteps.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:87)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:78)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:202)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:91)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:232)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: java.nio.file.NoSuchFileException: src\test\resources\testdata\complex_user.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at com.api.automation.utils.FileUtils.readJsonFile(FileUtils.java:17)
+	... 51 more
+2025-10-20 21:21:06 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:21:06 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:33 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:23:33 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:23:33 [INFO ] [main] ConfigManager:loadProperties:22 - Configuration loaded from: src/test/resources/config.properties
+2025-10-20 21:23:33 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:33 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:33 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:33 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:33 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:33 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:23:33 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:23:33 [INFO ] [main] ComplexPayloadSteps:loadJsonPayloadFromFile:36 - Loading JSON from file: simple_user.json
+2025-10-20 21:23:33 [INFO ] [main] FileUtils:readJsonFile:18 - JSON file read: simple_user.json
+2025-10-20 21:23:33 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:23:33 [DEBUG] [main] TestContext:setContextData:33 - Context data set: lastPayload
+2025-10-20 21:23:34 [INFO ] [main] PayloadProcessor:logPayload:91 - Payload:
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "phone": "1234567890",
+  "active": true
+}
+2025-10-20 21:23:34 [INFO ] [main] APIClientSteps:sendPOSTRequest:48 - Sending POST to: /users
+2025-10-20 21:23:34 [INFO ] [main] APIClient:post:97 - Sending POST request to: /users
+2025-10-20 21:23:35 [INFO ] [main] APIClient:post:99 - POST Response Status: 201
+2025-10-20 21:23:35 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:23:35 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 201
+2025-10-20 21:23:35 [INFO ] [main] ResponseValidator:validateBodyNotEmpty:79 - Response body is not empty
+2025-10-20 21:23:35 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:23:35 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:35 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:23:35 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:23:35 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:35 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:35 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:35 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:35 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:35 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:23:35 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:23:35 [INFO ] [main] ComplexPayloadSteps:loadJsonPayloadWithReplacements:45 - Loading JSON with replacements: complex_user.json
+2025-10-20 21:23:35 [INFO ] [main] FileUtils:readJsonFile:18 - JSON file read: complex_user.json
+2025-10-20 21:23:35 [DEBUG] [main] FileUtils:readJsonFileWithReplacements:58 - Replaced: {{USER_NAME}}
+2025-10-20 21:23:35 [DEBUG] [main] FileUtils:readJsonFileWithReplacements:58 - Replaced: {{USER_EMAIL}}
+2025-10-20 21:23:35 [DEBUG] [main] FileUtils:readJsonFileWithReplacements:58 - Replaced: {{PHONE_NUMBER}}
+2025-10-20 21:23:35 [INFO ] [main] FileUtils:readJsonFileWithReplacements:61 - File processed with replacements
+2025-10-20 21:23:35 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:23:35 [DEBUG] [main] TestContext:setContextData:33 - Context data set: lastPayload
+2025-10-20 21:23:35 [INFO ] [main] PayloadProcessor:logPayload:91 - Payload:
+{
+  "id": 0,
+  "name": "John Smith",
+  "email": "john@domain.com",
+  "phone": "5551234567",
+  "address": {
+    "street": "123 Main St",
+    "city": "New York",
+    "state": "NY",
+    "zipCode": "10001",
+    "coordinates": {
+      "lat": "40.7128",
+      "lng": "-74.0060"
+    }
+  },
+  "contacts": [
+    {
+      "type": "mobile",
+      "value": "1234567890"
+    },
+    {
+      "type": "home",
+      "value": "9876543210"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "Rest API"
+  ],
+  "active": true,
+  "role": "user",
+  "verified": false
+}
+2025-10-20 21:23:35 [INFO ] [main] APIClientSteps:sendPOSTRequest:48 - Sending POST to: /users
+2025-10-20 21:23:35 [INFO ] [main] APIClient:post:97 - Sending POST request to: /users
+2025-10-20 21:23:36 [INFO ] [main] APIClient:post:99 - POST Response Status: 201
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:23:36 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 201
+2025-10-20 21:23:36 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:23:36 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:23:36 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:36 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:36 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:36 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:23:36 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:23:36 [INFO ] [main] ComplexPayloadSteps:buildComplexPayload:80 - Building complex payload
+2025-10-20 21:23:36 [DEBUG] [main] ComplexPayloadBuilder:clear:97 - Payload cleared
+2025-10-20 21:23:36 [DEBUG] [main] ComplexPayloadBuilder:addString:26 - Added String - name: Jane Doe
+2025-10-20 21:23:36 [DEBUG] [main] ComplexPayloadBuilder:addString:26 - Added String - email: jane@test
+2025-10-20 21:23:36 [DEBUG] [main] ComplexPayloadBuilder:addNumber:32 - Added Number - age: 30
+2025-10-20 21:23:36 [DEBUG] [main] ComplexPayloadBuilder:addBoolean:38 - Added Boolean - verified: true
+2025-10-20 21:23:36 [INFO ] [main] ComplexPayloadSteps:addNestedObjectToPayload:101 - Adding nested object: address
+2025-10-20 21:23:36 [DEBUG] [main] ComplexPayloadBuilder:addNestedObject:50 - Added Nested Object - address
+2025-10-20 21:23:36 [INFO ] [main] ComplexPayloadSteps:addArrayToPayload:108 - Adding array: tags
+2025-10-20 21:23:36 [DEBUG] [main] ComplexPayloadBuilder:addStringArray:58 - Added String Array - tags: 3 items
+2025-10-20 21:23:36 [INFO ] [main] ComplexPayloadSteps:finalizePayload:126 - Finalizing payload
+2025-10-20 21:23:36 [INFO ] [main] ComplexPayloadBuilder:build:86 - Payload built successfully
+2025-10-20 21:23:36 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:setContextData:33 - Context data set: lastPayload
+2025-10-20 21:23:36 [INFO ] [main] PayloadProcessor:logPayload:91 - Payload:
+{
+  "name": "Jane Doe",
+  "email": "jane@test",
+  "age": 30,
+  "verified": true,
+  "address": {
+    "city": "New York",
+    "street": "123 Main St",
+    "state": "NY"
+  },
+  "tags": [
+    "developer",
+    "tester",
+    "manager"
+  ]
+}
+2025-10-20 21:23:36 [INFO ] [main] APIClientSteps:sendPOSTRequest:48 - Sending POST to: /users
+2025-10-20 21:23:36 [INFO ] [main] APIClient:post:97 - Sending POST request to: /users
+2025-10-20 21:23:36 [INFO ] [main] APIClient:post:99 - POST Response Status: 201
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:23:36 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 201
+2025-10-20 21:23:36 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:23:36 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:23:36 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:36 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:36 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:36 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:23:36 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:23:36 [INFO ] [main] ComplexPayloadSteps:loadJsonPayloadFromFile:36 - Loading JSON from file: simple_user.json
+2025-10-20 21:23:36 [INFO ] [main] FileUtils:readJsonFile:18 - JSON file read: simple_user.json
+2025-10-20 21:23:36 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:setContextData:33 - Context data set: lastPayload
+2025-10-20 21:23:36 [INFO ] [main] PayloadProcessor:logPayload:91 - Payload:
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "phone": "1234567890",
+  "active": true
+}
+2025-10-20 21:23:36 [INFO ] [main] ComplexPayloadSteps:mergePayloadWithFile:135 - Merging payload with file: simple_user.json
+2025-10-20 21:23:36 [INFO ] [main] FileUtils:readJsonFile:18 - JSON file read: simple_user.json
+2025-10-20 21:23:36 [INFO ] [main] PayloadProcessor:mergePayloads:50 - Payloads merged successfully
+2025-10-20 21:23:36 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:setContextData:33 - Context data set: lastPayload
+2025-10-20 21:23:36 [INFO ] [main] PayloadProcessor:logPayload:91 - Payload:
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "phone": "1234567890",
+  "active": true
+}
+2025-10-20 21:23:36 [INFO ] [main] APIClientSteps:sendPOSTRequest:48 - Sending POST to: /users
+2025-10-20 21:23:36 [INFO ] [main] APIClient:post:97 - Sending POST request to: /users
+2025-10-20 21:23:36 [INFO ] [main] APIClient:post:99 - POST Response Status: 201
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:23:36 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 201
+2025-10-20 21:23:36 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:23:36 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:23:36 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:36 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:36 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:36 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:36 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:23:36 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:23:36 [INFO ] [main] ComplexPayloadSteps:loadJsonPayloadWithReplacements:45 - Loading JSON with replacements: complex_user.json
+2025-10-20 21:23:36 [INFO ] [main] FileUtils:readJsonFile:18 - JSON file read: complex_user.json
+2025-10-20 21:23:36 [DEBUG] [main] FileUtils:readJsonFileWithReplacements:58 - Replaced: {{USER_NAME}}
+2025-10-20 21:23:37 [DEBUG] [main] FileUtils:readJsonFileWithReplacements:58 - Replaced: {{USER_EMAIL}}
+2025-10-20 21:23:37 [DEBUG] [main] FileUtils:readJsonFileWithReplacements:58 - Replaced: {{PHONE_NUMBER}}
+2025-10-20 21:23:37 [INFO ] [main] FileUtils:readJsonFileWithReplacements:61 - File processed with replacements
+2025-10-20 21:23:37 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:23:37 [DEBUG] [main] TestContext:setContextData:33 - Context data set: lastPayload
+2025-10-20 21:23:37 [INFO ] [main] PayloadProcessor:logPayload:91 - Payload:
+{
+  "id": 0,
+  "name": "Test User",
+  "email": "test@test",
+  "phone": "5551234567",
+  "address": {
+    "street": "123 Main St",
+    "city": "New York",
+    "state": "NY",
+    "zipCode": "10001",
+    "coordinates": {
+      "lat": "40.7128",
+      "lng": "-74.0060"
+    }
+  },
+  "contacts": [
+    {
+      "type": "mobile",
+      "value": "1234567890"
+    },
+    {
+      "type": "home",
+      "value": "9876543210"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "Rest API"
+  ],
+  "active": true,
+  "role": "user",
+  "verified": false
+}
+2025-10-20 21:23:37 [INFO ] [main] ComplexPayloadSteps:validatePayloadStructure:159 - Validating payload structure
+2025-10-20 21:23:37 [INFO ] [main] PayloadProcessor:validatePayloadStructure:67 - Payload structure validated
+2025-10-20 21:23:37 [INFO ] [main] APIClientSteps:sendPOSTRequest:48 - Sending POST to: /users
+2025-10-20 21:23:37 [INFO ] [main] APIClient:post:97 - Sending POST request to: /users
+2025-10-20 21:23:37 [INFO ] [main] APIClient:post:99 - POST Response Status: 201
+2025-10-20 21:23:37 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:23:37 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 201
+2025-10-20 21:23:37 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:23:37 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:37 [DEBUG] [main] TestContext:<init>:19 - TestContext initialized
+2025-10-20 21:23:37 [INFO ] [main] Hooks:setUp:20 - ========== TEST SCENARIO STARTED ==========
+2025-10-20 21:23:37 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:37 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:37 [INFO ] [main] APIClient:<init>:25 - APIClient initialized with baseURI: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:37 [INFO ] [main] APIClientSteps:setBaseURL:30 - Base URL set to: https://jsonplaceholder.typicode.com
+2025-10-20 21:23:37 [DEBUG] [main] TestContext:clearContext:52 - Context cleared
+2025-10-20 21:23:37 [INFO ] [main] APIClientSteps:clearContext:36 - Context cleared
+2025-10-20 21:23:37 [DEBUG] [main] ComplexPayloadBuilder:<init>:21 - ComplexPayloadBuilder initialized
+2025-10-20 21:23:37 [INFO ] [main] ComplexPayloadSteps:loadJsonPayloadWithReplacements:45 - Loading JSON with replacements: complex_user.json
+2025-10-20 21:23:37 [INFO ] [main] FileUtils:readJsonFile:18 - JSON file read: complex_user.json
+2025-10-20 21:23:37 [DEBUG] [main] FileUtils:readJsonFileWithReplacements:58 - Replaced: {{USER_NAME}}
+2025-10-20 21:23:37 [DEBUG] [main] FileUtils:readJsonFileWithReplacements:58 - Replaced: {{USER_EMAIL}}
+2025-10-20 21:23:37 [DEBUG] [main] FileUtils:readJsonFileWithReplacements:58 - Replaced: {{PHONE_NUMBER}}
+2025-10-20 21:23:37 [INFO ] [main] FileUtils:readJsonFileWithReplacements:61 - File processed with replacements
+2025-10-20 21:23:37 [DEBUG] [main] APIClient:setBody:79 - Request body set
+2025-10-20 21:23:37 [DEBUG] [main] TestContext:setContextData:33 - Context data set: lastPayload
+2025-10-20 21:23:37 [INFO ] [main] PayloadProcessor:logPayload:91 - Payload:
+{
+  "id": 0,
+  "name": "John Doe",
+  "email": "john@test",
+  "phone": "5551234567",
+  "address": {
+    "street": "123 Main St",
+    "city": "New York",
+    "state": "NY",
+    "zipCode": "10001",
+    "coordinates": {
+      "lat": "40.7128",
+      "lng": "-74.0060"
+    }
+  },
+  "contacts": [
+    {
+      "type": "mobile",
+      "value": "1234567890"
+    },
+    {
+      "type": "home",
+      "value": "9876543210"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "Rest API"
+  ],
+  "active": true,
+  "role": "user",
+  "verified": false
+}
+2025-10-20 21:23:37 [INFO ] [main] APIClientSteps:sendPOSTRequest:48 - Sending POST to: /users
+2025-10-20 21:23:37 [INFO ] [main] APIClient:post:97 - Sending POST request to: /users
+2025-10-20 21:23:37 [INFO ] [main] APIClient:post:99 - POST Response Status: 201
+2025-10-20 21:23:37 [DEBUG] [main] TestContext:setLastResponse:28 - Last response set
+2025-10-20 21:23:37 [INFO ] [main] ResponseValidator:validateStatusCode:19 - Status code validated: 201
+2025-10-20 21:23:37 [INFO ] [main] ResponseValidator:extractJsonPath:92 - Extracted: id = 11
+2025-10-20 21:23:37 [DEBUG] [main] TestContext:setExtractedData:42 - Extracted data set: userId = 11
+2025-10-20 21:23:37 [INFO ] [main] APIClientSteps:extractJsonPath:187 - Extracted: userId = 11
+2025-10-20 21:23:37 [INFO ] [main] Hooks:tearDown:29 - ========== TEST SCENARIO COMPLETED ==========
+
+2025-10-20 21:23:37 [DEBUG] [main] TestContext:clearContext:52 - Context cleared

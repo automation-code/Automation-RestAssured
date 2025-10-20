@@ -1,0 +1,37 @@
+{
+  "firstName": "{{FIRST_NAME}}",
+  "lastName": "{{LAST_NAME}}",
+  "email": "{{EMAIL}}",
+  "phone": "{{PHONE}}",
+  "dateOfBirth": "{{DOB}}",
+  "gender": "{{GENDER}}",
+  "address": {
+    "street": "{{STREET}}",
+    "city": "{{CITY}}",
+    "state": "{{STATE}}",
+    "country": "{{COUNTRY}}",
+    "zipCode": "{{ZIP_CODE}}"
+  },
+  "company": {
+    "name": "{{COMPANY_NAME}}",
+    "position": "{{POSITION}}",
+    "department": "{{DEPARTMENT}}"
+  },
+  "socialProfiles": [
+    {
+      "platform": "linkedin",
+      "url": "{{LINKEDIN_URL}}"
+    },
+    {
+      "platform": "twitter",
+      "url": "{{TWITTER_URL}}"
+    }
+  ],
+  "preferences": {
+    "language": "{{LANGUAGE}}",
+    "timezone": "{{TIMEZONE}}",
+    "notifications": true
+  },
+  "active": "{{ACTIVE}}",
+  "verified": "{{VERIFIED}}"
+}

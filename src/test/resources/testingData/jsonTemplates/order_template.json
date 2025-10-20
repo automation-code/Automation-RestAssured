@@ -1,0 +1,23 @@
+{
+  "orderId": "{{ORDER_ID}}",
+  "customerId": "{{CUSTOMER_ID}}",
+  "customerName": "{{CUSTOMER_NAME}}",
+  "orderDate": "{{ORDER_DATE}}",
+  "status": "{{STATUS}}",
+  "items": [
+    {
+      "itemId": "{{ITEM_ID_1}}",
+      "quantity": "{{QUANTITY_1}}",
+      "price": "{{PRICE_1}}"
+    }
+  ],
+  "shippingAddress": {
+    "street": "{{STREET}}",
+    "city": "{{CITY}}",
+    "state": "{{STATE}}",
+    "zipCode": "{{ZIP}}"
+  },
+  "totalAmount": "{{TOTAL_AMOUNT}}",
+  "tax": "{{TAX}}",
+  "paymentMethod": "{{PAYMENT_METHOD}}"
+}
