@@ -15,8 +15,8 @@ import org.junit.runner.RunWith;
                 "junit:target/cucumber-reports/report.xml"
         },
         monochrome = true,
-        publish = true,
-        tags = "@delete"
+        publish = true
+//        tags = "@delete"
 )
 
 public class APITestRunner {

@@ -1,7 +1,6 @@
 package com.api.automation.config;
 
 import org.apache.log4j.Logger;
-
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -17,7 +16,7 @@ public class ConfigManager {
     private static void loadProperties() {
         properties = new Properties();
         try {
-            String configPath = System.getProperty("config.path", "src/test/resources/config.properties");
+            String configPath = System.getProperty("config.path", "src/test/resources/properties/config.properties");
             properties.load(new FileInputStream(configPath));
             logger.info("Configuration loaded from: " + configPath);
         } catch (Exception e) {
